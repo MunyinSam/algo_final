@@ -8,7 +8,14 @@
 
 using namespace std;
 
-int main() {
+void solve()
+{
     ios::sync_with_stdio(false);
     cin.tie(NULL);
+}
+
+int main()
+{
+    solve();
+    return 0;
 }
