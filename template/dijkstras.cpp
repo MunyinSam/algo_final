@@ -79,7 +79,7 @@ vector<ll> dijkstra(int N, const vector<vector<Edge>> &adj, const vector<pair<in
 
 // --- Example Usage ---
 
-void main_example()
+int main()
 {
 
     ios::sync_with_stdio(false);
@@ -107,4 +107,6 @@ void main_example()
     // 2. Multi-Source Example (Shortest path from a set of special nodes {3, 5})
     vector<pair<int, ll>> multi_source = {{3, 0}, {5, 0}};
     vector<ll> distances_from_set = dijkstra(N, adj, multi_source);
+
+    return 0;
 }
